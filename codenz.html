@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="fr">
+<html>
 <head>
   <meta charset="utf-8">
   <title>Places de cinéma</title>
@@ -17,9 +17,11 @@
 var tab=new Array();
 
 // incrémentation lignes colonnes
+tab[0]=1;
+tab.length=8;
 
     // creating all cells
-  for (var i = 0; i < 8; i++) {
+  for (var i = 0; i < tab.length; i++) {
     // creates a table row
     var row = document.createElement("td");
 
@@ -27,14 +29,15 @@ var tab=new Array();
       // Create a <td> element and a text node, make the text
       // node the contents of the <td>, and put the <td> at
       // the end of the table row
-      var cell = document.createElement("td");
-      var cellText = document.createTextNode("cell in row "+i+", column "+j);
-      cell.appendChild(cellText);
-      row.appendChild(cell);
+      //var cell = document.createElement("td");
+      //var cellText = document.createTextNode("cell in row "+i+", column "+j);
+      //cell.appendChild(cellText);
+      //row.appendChild(cell);
+      
+      document.write("[_]");
     }
     
-    tab[0]=1;
-tab.length=8;
+   
 document.write(tab[0]); // Affiche "1"
 
 //affichage menu
