@@ -1,0 +1,10 @@
+// construction du tableau
+
+var tab=new Array();
+
+// incrémentation lignes colonnes
+
+
+//affichage menu
+// affichage tableau
+
