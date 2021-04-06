@@ -11,6 +11,7 @@ tab.length=8;
 <input type="text" name="nbplace" size=5 value=0>
 "Quelle rangée ?"
 <input type="text" name="rangee" size=5 value=0>
+//<input type="button" value="OK" onClick="fonctionPlaces()">
 </form>
 // affichage tableau
 
